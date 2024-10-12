@@ -19,6 +19,7 @@ export default class Screen1 extends React.Component {
     console.log(this.props);
     return (
       <div className="inside" id="screen1">
+        <h4>Pantalla 1:</h4>
         <p>
           {"RXN0YSBlcyBsYSBhcGxpY2FjafNuIGRlIGRlc2FjdGl2YWNp824gZGUgbGEgYm9tYmEuIFBhcmEgZXZpdGFyIHF1ZSAgY3VhbHF1aWVyIHBlcnNvbmEgYWNjZWRhIGEgbGEgaW50ZXJmYXogZGUgY29udHJvbCwgc/NsbyBlbnRyYW5kbyBlbiBsYSBjb25zb2xhIGRlbCBuYXZlZ2Fkb3IgeSBlamVjdXRhbmRvIGxhIGZ1bmNp824gcXVlIHNlIGluZGljYSBlbiBlbCBtZW5zYWplIGRlIGF1ZGlvIHBvZHLhcyBwYXNhciBhbCBzaWd1aWVudGUgcGFzby4=".unhashCode()}
         </p>

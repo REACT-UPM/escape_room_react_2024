@@ -20,6 +20,7 @@ export default class Screen2 extends React.Component {
   render() {
     return (
       <div className="inside" id="screen2">
+        <h4>Pantalla 2:</h4>
         <p>
           পরবর্তী ধাপে এগিয়ে যাওয়ার জন্য আপনাকে BombComponentList এ সমস্ত
           BombComponents রেন্ডার করতে হবে। এই জন্য আপনি মানচিত্র ফাংশন ব্যবহার

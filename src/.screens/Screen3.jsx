@@ -18,6 +18,7 @@ export default class Screen3 extends React.Component {
   render() {
     return (
       <div className="inside" id="screen3">
+        <h4>Pantalla 3:</h4>
         <p>
           {"T2gsIG5vISBFbCB1cmFuaW8gZW5yaXF1ZWNpZG8gc2UgZXN04SByZWNhbGVudGFuZG8uIFBhcmEgYWN0aXZhciBlbCBtZWNhbmlzbW8gZGUgY29udHJvbCBkZSB0ZW1wZXJhdHVyYSBkZWJlcyBkZXNjdWJyaXIgc3UgY/NkaWdvIGRlIGFjdGl2YWNp824uIFBhcmEgaGFjZXJsbyByZWN1cnJlIGEgUmVhY3QgTmF0aXZl".unhashCode()}
         </p>
