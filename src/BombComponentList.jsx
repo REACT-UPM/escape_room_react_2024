@@ -3,8 +3,7 @@ import BombComponent from "./BombComponent";
 export default function BombComponentList(props) {
 
 		return <ul className="list-group">
-			{ /* MAP FUNCTION GOES HERE */
-      }	
+			{ props.components.map((c,index) =>{           return <BombComponent key={index} status={c.status} index={index} id={c.id} toggleSwitch={props.turnOffComponent}/>         })	}
       </ul>
 }
 
@@ -21,7 +20,7 @@ BombComponentList.propTypes = {
       /**
        * Name of the component to deactivate
        */
-      id: PropTypes.String
+      id: PropTypes.string
     })
   ),
   /**
