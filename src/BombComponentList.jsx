@@ -3,7 +3,7 @@ import BombComponent from "./BombComponent";
 export default function BombComponentList(props) {
 
 		return <ul className="list-group">
-			{ props.components.map((c,index) =>{           return <BombComponent key={index} status={c.status} index={index} id={c.id} toggleSwitch={props.turnOffComponent}/>         })	}
+			{ /* MAP FUNCTION GOES HERE */ }	
       </ul>
 }
 
